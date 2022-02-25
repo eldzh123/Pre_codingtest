@@ -4,7 +4,6 @@ const input = fs
   .readFileSync(path.join(__dirname, "input.txt"))
   .toString()
   .trim();
-console.log(input);
 
 function revWord(word) {
   const arr = word.split("");
